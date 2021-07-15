@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap"
+			rel="stylesheet"
+		/>
+		<style>
+			.navbar {
+				height: 10vh;
+				background-color: indianred;
+				transition: all 1s;
+			}
+			.navbar.open {
+				height: 50vh;
+				transition: all 1s;
+			}
+		</style>
+	</head>
+	<body>
+		<header class="navbar">
+			<button onclick="toggleNavbar()">Toggle</button>
+		</header>
+		<h1 id="heading1">Test</h1>
+		<input onkeyup="titleChanged(event)" type="text" />
+		<ul id="cities">
+			<li>Mohali</li>
+			<li>Chandigarh</li>
+			<li>Panchkulla</li>
+		</ul>
+		<script type="module" src="./dom.js"></script>
+		<script>
+			let navbar = document.querySelector(".navbar");
+			let heading1 = document.getElementById("heading1");
+			let cities = document.getElementById("cities");
+
+			function titleChanged(e) {
+				if (e.code === "Enter") {
+					heading1.innerText = e.target.value;
+					cities.innerHTML += `<li>${e.target.value} </li>`;
+					e.target.value = "";
+				}
+			}
+			function toggleNavbar() {
+				navbar.classList.toggle("open");
+			}
+		</script>
+	</body>
+</html>

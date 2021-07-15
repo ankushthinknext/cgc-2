@@ -1,0 +1,38 @@
+body {
+	background-color: rgb(228, 225, 225);
+}
+.parent {
+	height: 100px;
+	width: 100px;
+	border: hotpink 1px solid;
+	display: inline-block;
+}
+.head {
+	display: inline-block;
+	background-color: hotpink;
+	height: 100px;
+	width: 100px;
+}
+.special {
+	background-color: indigo;
+}
+
+.red {
+	color: red;
+}
+.blue {
+	color: blue;
+}
+.green {
+	color: green;
+}
+
+.lg {
+	font-size: 60px;
+}
+.md {
+	font-size: 50px;
+}
+.xl {
+	font-size: 100px;
+}

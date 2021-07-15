@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Grids</title>
+		<style>
+			body {
+				margin: 0;
+				padding: 0;
+			}
+			.container {
+				display: grid;
+				grid-template: 10vh 75vh 10vh / 20% auto;
+				gap: 1px;
+			}
+			.child {
+				background-color: indianred;
+				background-size: cover;
+				padding: 10px;
+			}
+			.header {
+				grid-column: 1/3;
+			}
+			.footer {
+				grid-column: 1/3;
+				display: flex;
+				justify-content: space-evenly;
+			}
+			.nav-list {
+				display: flex;
+				list-style: none;
+				justify-content: flex-end;
+			}
+			.nav-list li {
+				margin-left: 20px;
+			}
+			.sidebar-list {
+				padding: 0;
+				height: 500px;
+				list-style: none;
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				justify-content: space-around;
+			}
+			.main-area {
+				overflow-y: scroll;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<div class="child header">
+				<ul class="nav-list">
+					<li>Home</li>
+					<li>About us</li>
+					<li>Team</li>
+					<li>Products</li>
+					<li>Contact</li>
+				</ul>
+			</div>
+			<div class="child sidebar">
+				<ul class="sidebar-list">
+					<li>Users</li>
+					<li>Dashboard</li>
+					<li>Transaction</li>
+					<li>Location</li>
+					<li>OPtions</li>
+				</ul>
+			</div>
+			<div class="child main-area">
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, magnam
+					blanditiis. Commodi earum ut, magnam neque accusantium perferendis
+					molestiae excepturi velit totam at, harum explicabo officiis natus
+					distinctio vero maiores illum nulla recusandae, voluptates dolorum
+					ipsa iusto dicta eveniet non? At voluptatum illo blanditiis fuga
+					consectetur ratione, assumenda fugiat reiciendis facilis omnis quas,
+					ad laudantium, iusto ea quod enim. Dicta, voluptas provident.
+					Perferendis, repellendus tempore aspernatur cupiditate impedit quas
+					qui iure illo, magni velit ipsa delectus consequatur quos omnis!
+					Numquam nobis ad doloremque, odio rerum fugiat ut reprehenderit alias
+					nihil esse officia a qui veniam dolorem culpa nostrum blanditiis
+					eveniet quasi repudiandae provident repellendus voluptas dolor ipsa?
+					Eum sunt praesentium assumenda, excepturi perferendis quod aliquam
+					quae doloribus! Quisquam voluptatum fugit maxime unde distinctio
+					reprehenderit consequuntur a obcaecati deserunt aspernatur, magni
+					maiores saepe eum cumque perspiciatis soluta quia atque quam nulla
+					officia rerum sed error ea! Debitis est officiis, optio tenetur modi
+					nostrum ipsa hic sit dignissimos eos sint maxime incidunt
+					necessitatibus laudantium ut consequatur totam eveniet sequi explicabo
+					nulla maiores, possimus provident veritatis voluptatibus. Ipsam
+					perferendis voluptas laboriosam, a facere suscipit pariatur adipisci,
+					obcaecati mollitia necessitatibus assumenda? Placeat magni quae harum
+					ullam quas ut nemo culpa atque doloribus perferendis est dicta quam
+					odio aspernatur sequi voluptas dolor exercitationem corporis aperiam,
+					corrupti quaerat, distinctio cupiditate. Nostrum placeat assumenda
+					recusandae, dolore sunt autem voluptatibus quo reiciendis architecto
+					temporibus sint maiores distinctio deleniti iure, nobis natus unde
+					culpa, debitis possimus minus odio beatae ex. Aperiam voluptates
+					repellat nam molestias fugiat, nisi eligendi fugit vitae consectetur
+					ipsa amet nulla nostrum cumque a quod reprehenderit ducimus. Beatae
+					asperiores voluptas, quisquam, accusantium atque eveniet nemo a in
+					perferendis, adipisci ipsa est dolor vel ratione illum dolorem itaque
+					aperiam. Perspiciatis cumque asperiores sequi perferendis quo alias
+					quaerat dolor facilis, aperiam quas minima minus voluptatem dolorum,
+					vero blanditiis fuga. Sit dolorum quidem iure recusandae ad asperiores
+					animi corrupti tenetur, quisquam enim in sapiente cupiditate nulla
+					voluptas maxime molestias perspiciatis, ullam neque ipsa fugiat. Ipsa
+					nulla quod iusto, quisquam iste porro quas dolorem veniam odit alias
+					labore quibusdam ea dignissimos vel, at omnis quae error eum vero
+					assumenda eveniet qui perferendis mollitia voluptates? Aut, architecto
+					ratione quos dolorem fugit mollitia. Minima hic iste beatae
+					necessitatibus ducimus, sequi quis reiciendis aperiam, adipisci, fuga
+					dolores accusamus? Exercitationem deleniti sunt tenetur ducimus? Enim
+					placeat quisquam consequatur mollitia dolorum nostrum vitae maxime
+					assumenda accusantium ipsum porro, ducimus magnam ad, veritatis
+					exercitationem atque. Alias delectus iure doloribus. Libero nisi sequi
+					aspernatur amet nemo commodi qui molestiae illum asperiores,
+					consectetur ab dolores saepe impedit, tempora culpa? Dignissimos
+					doloribus consequatur quam nemo ut ab iusto rerum, autem qui tempora
+					dolores tempore possimus sunt reprehenderit optio dolor voluptas
+					corporis eos nisi. Quasi, molestiae facere fugit, dolorem
+					consequuntur, exercitationem laudantium amet ut in laborum doloremque
+					incidunt suscipit voluptatum! Laudantium nobis optio, illum aut a
+					numquam illo distinctio eligendi quis ea doloremque facere dolor
+					quisquam, repellat facilis enim, officiis commodi perferendis sequi
+					vel. Velit, officiis pariatur. Mollitia quam hic, maxime temporibus
+					voluptatum laudantium quos libero eligendi recusandae harum ad
+					quisquam aspernatur provident voluptate esse veritatis minima atque
+					dolor natus labore sed numquam a amet saepe? Ullam quas repellendus
+					asperiores esse fuga corporis ut blanditiis voluptas provident
+					assumenda, vitae veritatis accusamus quod atque suscipit iste
+					temporibus eveniet, dignissimos dolore fugiat ratione molestias! Nam
+					quae assumenda dolorum, ratione deserunt impedit explicabo
+					necessitatibus maxime reprehenderit delectus ex excepturi libero
+					tempora voluptatem cum dolore? Esse, quaerat dolore tempore quibusdam
+					delectus vero repellat ipsam porro voluptatum numquam expedita dolores
+					fugit nobis labore voluptates provident enim reiciendis pariatur
+					maiores doloremque cum odio quod mollitia. Dolorem dolorum ullam
+					beatae illum consequatur fugiat molestias deserunt. Veniam eveniet
+					magnam voluptate incidunt, earum odit laboriosam est numquam inventore
+					ipsum ut iusto optio adipisci! Quo, quod! Eligendi saepe, velit neque
+					odit quam perspiciatis non exercitationem temporibus officia maiores
+					illum nisi explicabo alias itaque voluptatibus, natus provident
+					consequuntur eos nam a. Aperiam suscipit ex nemo omnis sequi quo harum
+					ea voluptatum inventore. Necessitatibus nemo recusandae in suscipit
+					odit minus tempore nulla magnam ducimus quasi quidem blanditiis, autem
+					laudantium commodi quaerat temporibus repudiandae reiciendis soluta!
+					Saepe suscipit, deleniti vitae, accusantium provident consequuntur
+					sequi facere, eius mollitia aut atque minima officiis. Id, maxime
+					consequuntur commodi velit esse ex enim neque voluptates sit a nobis
+					molestiae ipsam quaerat nihil eum necessitatibus dolore aperiam autem
+					totam minima nemo veniam cumque labore facere. Unde ipsa voluptatem
+					perspiciatis laborum aut quos odio, repellat voluptas cumque neque
+					repudiandae dignissimos, repellendus laudantium voluptatibus, est
+					velit quasi labore soluta tempora explicabo quisquam. Voluptas id
+					excepturi asperiores vel nam reiciendis dolorum maxime, vitae velit
+					repellat doloribus facere delectus provident, fugiat, ratione
+					veritatis quae dicta consequatur ullam? Excepturi, tempora nisi! Porro
+					consequuntur, ut delectus eius doloribus numquam cum voluptatum
+					pariatur minus asperiores facere mollitia vero reiciendis, consequatur
+					tempore. Blanditiis, minus! Nam, sunt porro. Consequatur saepe aliquam
+					autem quidem distinctio sunt eveniet, totam voluptatibus incidunt
+					fugit odit aut nemo optio deserunt quam, iusto accusantium officia.
+					Ipsam, magnam cumque quos odio excepturi assumenda laborum tempore
+					rerum quia eligendi quae aspernatur repellendus non nisi hic illo
+					officia. Atque culpa, doloremque aut nobis, itaque dolores quae
+					blanditiis iste vitae dolor perspiciatis maxime adipisci voluptate,
+					voluptatum unde eum placeat optio! Corrupti doloribus vero totam
+					distinctio ab modi impedit autem error recusandae odit corporis
+					debitis, repellat quos necessitatibus. Atque quo vitae harum sunt
+					error, quae molestiae, voluptatem maxime labore deserunt voluptas
+					corrupti eius! Facilis doloribus maxime iusto et ratione suscipit
+					distinctio quas eveniet quam obcaecati vero ipsum tenetur libero
+					provident soluta, expedita corrupti recusandae, velit ut architecto
+					inventore! Esse reprehenderit reiciendis dignissimos odio, quia
+					veritatis placeat repudiandae maiores adipisci vel mollitia facilis
+					cum. Rerum eius, tempora unde dolorum repellendus atque molestias
+					commodi enim deserunt perferendis voluptas harum placeat, quia
+					blanditiis suscipit molestiae neque quaerat quasi quisquam dolor nemo
+					quo cum! Magnam, temporibus molestiae labore est unde doloremque quos
+					alias quod excepturi vitae dignissimos eligendi, corrupti ipsa
+					deserunt! Accusantium, nesciunt quod et nam eaque possimus similique
+					praesentium voluptatem pariatur commodi error eius, eligendi iusto
+					sed? Quasi impedit velit aperiam nulla pariatur eaque excepturi
+					voluptatem labore, quidem libero incidunt ut!
+				</p>
+			</div>
+			<div class="child footer">
+				<ul>
+					<li>HOme</li>
+					<li>Screens</li>
+				</ul>
+				<ul>
+					<li>HOme</li>
+					<li>Screens</li>
+				</ul>
+				<ul>
+					<li>HOme</li>
+					<li>Screens</li>
+				</ul>
+				<ul>
+					<li>HOme</li>
+					<li>Screens</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>
